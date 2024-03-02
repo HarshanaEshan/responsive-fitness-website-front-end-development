@@ -33,6 +33,7 @@ const Hero = () => {
 
   return (
     <div className="hero">
+      
 {/* hero left side open */}
         <div className="left-h">
             <TopBar/>
@@ -134,7 +135,7 @@ const Hero = () => {
           initial={{right: '11rem'}}
           whileInView={{right: '20rem'}}
           transition={transtition}
-          src={hero_image_back} alt="" className="hero-image-back" /> */}
+          src={hero_image} alt="" className="hero-image" /> */}
           <div className="blob-hero">
               <Blob/>
           </div>
